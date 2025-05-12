@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+.logo {
+    width: 80px;
+    height: auto;
+}
+main {
+    padding: 20px;
+    background: rgba(255,255,255,0.9);
+}
+.shop {
+    display: flex;
+    gap: 20px;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: white;
+    width: 200px;
+}
+.product img {
+    width: 100%;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
